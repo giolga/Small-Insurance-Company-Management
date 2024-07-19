@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Small Insurance Company Management Program.props" />
+</Project>

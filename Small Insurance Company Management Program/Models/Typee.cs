@@ -2,7 +2,7 @@
 
 namespace Small_Insurance_Company_Management_Program.Models
 {
-    public class Type
+    public class Typee
     {
         [Key]
         public int TypeId { get; set; }

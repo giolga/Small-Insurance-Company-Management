@@ -13,7 +13,7 @@ namespace Small_Insurance_Company_Management_Program.Models
         public Category Category { get; set; }
 
         public int TypeId { get; set; }
-        public Type Type { get; set; }
+        public Typee Type { get; set; }
 
         public int PackageId { get; set; }
         public Package Package { get; set; }
