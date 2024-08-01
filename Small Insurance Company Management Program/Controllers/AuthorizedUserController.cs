@@ -95,6 +95,7 @@ namespace Small_Insurance_Company_Management_Program.Controllers
             return Ok();
         }
 
+
         [HttpDelete]
         public async Task<ActionResult<AuthorizedUser>> DeleteAuthorizedUser(int id)
         {
