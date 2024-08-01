@@ -12,6 +12,7 @@ namespace Small_Insurance_Company_Management_Program.Models
         [Required]
         public string UserLastName { get; set; }
         public int InsuranceId { get; set; }
+        [JsonIgnore]
         public ICollection<InsuranceProduct> InsuranceProducts { get; set; }
     }
 }

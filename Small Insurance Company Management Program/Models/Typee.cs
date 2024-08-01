@@ -8,5 +8,6 @@ namespace Small_Insurance_Company_Management_Program.Models
         public int TypeId { get; set; }
         [Required]
         public string TypeName { get; set; }
+        public ICollection<InsuranceProduct> InsuranceProducts { get; set; }
     }
 }

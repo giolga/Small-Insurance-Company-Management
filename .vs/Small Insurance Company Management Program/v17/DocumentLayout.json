@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\GioLGA\\Desktop\\DotNet1\\Small Insurance Company Management Program\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EBBF5C22-04C1-4DD2-8973-A537D7BC8200}|Small Insurance Company Management Program\\Small Insurance Company Management Program.csproj|c:\\users\\giolga\\desktop\\dotnet1\\small insurance company management program\\small insurance company management program\\controllers\\typeecontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBBF5C22-04C1-4DD2-8973-A537D7BC8200}|Small Insurance Company Management Program\\Small Insurance Company Management Program.csproj|solutionrelative:small insurance company management program\\controllers\\typeecontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EBBF5C22-04C1-4DD2-8973-A537D7BC8200}|Small Insurance Company Management Program\\Small Insurance Company Management Program.csproj|c:\\users\\giolga\\desktop\\dotnet1\\small insurance company management program\\small insurance company management program\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBBF5C22-04C1-4DD2-8973-A537D7BC8200}|Small Insurance Company Management Program\\Small Insurance Company Management Program.csproj|solutionrelative:small insurance company management program\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBBF5C22-04C1-4DD2-8973-A537D7BC8200}|Small Insurance Company Management Program\\Small Insurance Company Management Program.csproj|c:\\users\\giolga\\desktop\\dotnet1\\small insurance company management program\\small insurance company management program\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBBF5C22-04C1-4DD2-8973-A537D7BC8200}|Small Insurance Company Management Program\\Small Insurance Company Management Program.csproj|solutionrelative:small insurance company management program\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EBBF5C22-04C1-4DD2-8973-A537D7BC8200}|Small Insurance Company Management Program\\Small Insurance Company Management Program.csproj|c:\\users\\giolga\\desktop\\dotnet1\\small insurance company management program\\small insurance company management program\\models\\insuranceproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBBF5C22-04C1-4DD2-8973-A537D7BC8200}|Small Insurance Company Management Program\\Small Insurance Company Management Program.csproj|solutionrelative:small insurance company management program\\models\\insuranceproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBBF5C22-04C1-4DD2-8973-A537D7BC8200}|Small Insurance Company Management Program\\Small Insurance Company Management Program.csproj|c:\\users\\giolga\\desktop\\dotnet1\\small insurance company management program\\small insurance company management program\\controllers\\insuranceproductscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBBF5C22-04C1-4DD2-8973-A537D7BC8200}|Small Insurance Company Management Program\\Small Insurance Company Management Program.csproj|solutionrelative:small insurance company management program\\controllers\\insuranceproductscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBBF5C22-04C1-4DD2-8973-A537D7BC8200}|Small Insurance Company Management Program\\Small Insurance Company Management Program.csproj|c:\\users\\giolga\\desktop\\dotnet1\\small insurance company management program\\small insurance company management program\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBBF5C22-04C1-4DD2-8973-A537D7BC8200}|Small Insurance Company Management Program\\Small Insurance Company Management Program.csproj|solutionrelative:small insurance company management program\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBBF5C22-04C1-4DD2-8973-A537D7BC8200}|Small Insurance Company Management Program\\Small Insurance Company Management Program.csproj|c:\\users\\giolga\\desktop\\dotnet1\\small insurance company management program\\small insurance company management program\\dtos\\insuranceproductsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBBF5C22-04C1-4DD2-8973-A537D7BC8200}|Small Insurance Company Management Program\\Small Insurance Company Management Program.csproj|solutionrelative:small insurance company management program\\dtos\\insuranceproductsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBBF5C22-04C1-4DD2-8973-A537D7BC8200}|Small Insurance Company Management Program\\Small Insurance Company Management Program.csproj|c:\\users\\giolga\\desktop\\dotnet1\\small insurance company management program\\small insurance company management program\\controllers\\packagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBBF5C22-04C1-4DD2-8973-A537D7BC8200}|Small Insurance Company Management Program\\Small Insurance Company Management Program.csproj|solutionrelative:small insurance company management program\\controllers\\packagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,27 +46,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\GioLGA\\Desktop\\DotNet1\\Small Insurance Company Management Program\\Small Insurance Company Management Program\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "Small Insurance Company Management Program\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\GioLGA\\Desktop\\DotNet1\\Small Insurance Company Management Program\\Small Insurance Company Management Program\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "Small Insurance Company Management Program\\Controllers\\CategoryController.cs",
-              "ViewState": "AQIAAEwAAAAAAAAAAAAcwGEAAAAQAAAA",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\GioLGA\\Desktop\\DotNet1\\Small Insurance Company Management Program\\Small Insurance Company Management Program\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Small Insurance Company Management Program\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\GioLGA\\Desktop\\DotNet1\\Small Insurance Company Management Program\\Small Insurance Company Management Program\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Small Insurance Company Management Program\\Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAADwvxAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T17:07:57.145Z"
+              "WhenOpened": "2024-08-01T19:40:46.969Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TypeeControler.cs",
-              "DocumentMoniker": "C:\\Users\\GioLGA\\Desktop\\DotNet1\\Small Insurance Company Management Program\\Small Insurance Company Management Program\\Controllers\\TypeeControler.cs",
-              "RelativeDocumentMoniker": "Small Insurance Company Management Program\\Controllers\\TypeeControler.cs",
-              "ToolTip": "C:\\Users\\GioLGA\\Desktop\\DotNet1\\Small Insurance Company Management Program\\Small Insurance Company Management Program\\Controllers\\TypeeControler.cs",
-              "RelativeToolTip": "Small Insurance Company Management Program\\Controllers\\TypeeControler.cs",
-              "ViewState": "AQIAAF0AAAAAAAAAAAAYwGUAAAAJAAAA",
+              "DocumentIndex": 1,
+              "Title": "InsuranceProduct.cs",
+              "DocumentMoniker": "C:\\Users\\GioLGA\\Desktop\\DotNet1\\Small Insurance Company Management Program\\Small Insurance Company Management Program\\Models\\InsuranceProduct.cs",
+              "RelativeDocumentMoniker": "Small Insurance Company Management Program\\Models\\InsuranceProduct.cs",
+              "ToolTip": "C:\\Users\\GioLGA\\Desktop\\DotNet1\\Small Insurance Company Management Program\\Small Insurance Company Management Program\\Models\\InsuranceProduct.cs",
+              "RelativeToolTip": "Small Insurance Company Management Program\\Models\\InsuranceProduct.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAwB4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T17:06:32.267Z",
+              "WhenOpened": "2024-08-01T19:35:35.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InsuranceProductsDto.cs",
+              "DocumentMoniker": "C:\\Users\\GioLGA\\Desktop\\DotNet1\\Small Insurance Company Management Program\\Small Insurance Company Management Program\\DTOs\\InsuranceProductsDto.cs",
+              "RelativeDocumentMoniker": "Small Insurance Company Management Program\\DTOs\\InsuranceProductsDto.cs",
+              "ToolTip": "C:\\Users\\GioLGA\\Desktop\\DotNet1\\Small Insurance Company Management Program\\Small Insurance Company Management Program\\DTOs\\InsuranceProductsDto.cs",
+              "RelativeToolTip": "Small Insurance Company Management Program\\DTOs\\InsuranceProductsDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T19:16:10Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InsuranceProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\GioLGA\\Desktop\\DotNet1\\Small Insurance Company Management Program\\Small Insurance Company Management Program\\Controllers\\InsuranceProductsController.cs",
+              "RelativeDocumentMoniker": "Small Insurance Company Management Program\\Controllers\\InsuranceProductsController.cs",
+              "ToolTip": "C:\\Users\\GioLGA\\Desktop\\DotNet1\\Small Insurance Company Management Program\\Small Insurance Company Management Program\\Controllers\\InsuranceProductsController.cs",
+              "RelativeToolTip": "Small Insurance Company Management Program\\Controllers\\InsuranceProductsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T19:08:46.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\GioLGA\\Desktop\\DotNet1\\Small Insurance Company Management Program\\Small Insurance Company Management Program\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Small Insurance Company Management Program\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\GioLGA\\Desktop\\DotNet1\\Small Insurance Company Management Program\\Small Insurance Company Management Program\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Small Insurance Company Management Program\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAAAGIAAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T18:47:27.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PackageController.cs",
+              "DocumentMoniker": "C:\\Users\\GioLGA\\Desktop\\DotNet1\\Small Insurance Company Management Program\\Small Insurance Company Management Program\\Controllers\\PackageController.cs",
+              "RelativeDocumentMoniker": "Small Insurance Company Management Program\\Controllers\\PackageController.cs",
+              "ToolTip": "C:\\Users\\GioLGA\\Desktop\\DotNet1\\Small Insurance Company Management Program\\Small Insurance Company Management Program\\Controllers\\PackageController.cs",
+              "RelativeToolTip": "Small Insurance Company Management Program\\Controllers\\PackageController.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAAAF0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T18:25:07.213Z",
               "EditorCaption": ""
             }
           ]
