@@ -37,14 +37,31 @@ namespace Small_Insurance_Company_Management_Program.Controllers
                 return NoContent();
             }
 
-            var product = _context.InsuranceProducts.FirstOrDefault(i => i.Id == id);
+            var insuranceProduct = await _context.InsuranceProducts
+                .Include(ip => ip.Category)
+                .Include(ip => ip.Type)
+                .Include(ip => ip.Package)
+                .Include(ip => ip.AuthorizedUser)
+                .Include(ip => ip.Users) // Include if you want to retrieve related users
+                .FirstOrDefaultAsync(ip => ip.Id == id);
 
-            if (product == null)
+            if (insuranceProduct == null)
             {
                 return NotFound();
             }
 
-            return Ok(product);
+            // Convert int values to string representations
+            var insuranceProductDto = new InsuranceProductsDto()
+            {
+                InsuranceName = insuranceProduct.InsuranceName,
+                CategoryName = insuranceProduct.Category.CategoryName,
+                TypeName = insuranceProduct.Type.TypeName,
+                PackageName = insuranceProduct.Package.Name,
+                AuthorizedName = insuranceProduct.AuthorizedUser.AuthorizedName,
+                Description = insuranceProduct.Description,
+            };
+
+            return Ok(insuranceProductDto);
         }
 
         [HttpPost]
@@ -72,7 +89,7 @@ namespace Small_Insurance_Company_Management_Program.Controllers
                 insuranceProduct.CategoryId = category.CategoryId;
             }
 
-            if (!string.IsNullOrWhiteSpace(insuranceProductDto.TypeName))
+            if (!string.IsNullOrEmpty(insuranceProductDto.TypeName))
             {
                 var type = _context.Types.FirstOrDefault(t => t.TypeName == insuranceProductDto.TypeName);
 
@@ -84,7 +101,7 @@ namespace Small_Insurance_Company_Management_Program.Controllers
                 insuranceProduct.TypeId = type.TypeId;
             }
 
-            if (!string.IsNullOrWhiteSpace(insuranceProductDto.PackageName))
+            if (!string.IsNullOrEmpty(insuranceProductDto.PackageName))
             {
                 var packageName = _context.Packages.FirstOrDefault(p => p.Name == insuranceProductDto.PackageName);
 
@@ -96,7 +113,7 @@ namespace Small_Insurance_Company_Management_Program.Controllers
                 insuranceProduct.PackageId = packageName.PackageId;
             }
 
-            if (!string.IsNullOrWhiteSpace(insuranceProductDto.AuthorizedName))
+            if (!string.IsNullOrEmpty(insuranceProductDto.AuthorizedName))
             {
                 var authorizedUser = _context.AuthorizedUsers.FirstOrDefault(a => a.AuthorizedName == insuranceProductDto.AuthorizedName);
 
@@ -114,7 +131,7 @@ namespace Small_Insurance_Company_Management_Program.Controllers
             return Ok(insuranceProduct);
         }
 
-        [HttpPut]
+        [HttpPut("{id}")]
         public async Task<ActionResult<InsuranceProduct>> UpdateInsuranceProduct(int id, InsuranceProductsDto insuranceProductDto)
         {
             var product = _context.InsuranceProducts.FirstOrDefault(x => x.Id == id);
@@ -137,7 +154,7 @@ namespace Small_Insurance_Company_Management_Program.Controllers
                 product.CategoryId = category.CategoryId;
             }
 
-            if (!string.IsNullOrWhiteSpace(insuranceProductDto.TypeName))
+            if (!string.IsNullOrEmpty(insuranceProductDto.TypeName))
             {
                 var type = _context.Types.FirstOrDefault(t => t.TypeName == insuranceProductDto.TypeName);
 
@@ -149,7 +166,7 @@ namespace Small_Insurance_Company_Management_Program.Controllers
                 product.TypeId = type.TypeId;
             }
 
-            if (!string.IsNullOrWhiteSpace(insuranceProductDto.PackageName))
+            if (!string.IsNullOrEmpty(insuranceProductDto.PackageName))
             {
                 var packageName = _context.Packages.FirstOrDefault(p => p.Name == insuranceProductDto.PackageName);
 
@@ -161,7 +178,7 @@ namespace Small_Insurance_Company_Management_Program.Controllers
                 product.PackageId = packageName.PackageId;
             }
 
-            if (!string.IsNullOrWhiteSpace(insuranceProductDto.AuthorizedName))
+            if (!string.IsNullOrEmpty(insuranceProductDto.AuthorizedName))
             {
                 var authorizedUser = _context.AuthorizedUsers.FirstOrDefault(a => a.AuthorizedName == insuranceProductDto.AuthorizedName);
 

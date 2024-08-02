@@ -15,21 +15,20 @@ namespace Small_Insurance_Company_Management_Program.Data
         public DbSet<Typee> Types { get; set; }
         public DbSet<User> Users { get; set; }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<InsuranceProduct>()
-                .HasOne(p => p.AuthorizedUser)
-                .WithMany(u => u.InsuranceProducts)
-                .HasForeignKey(p => p.AuthorizedUserId)
-                .OnDelete(DeleteBehavior.Cascade);
+        //protected override void OnModelCreating(ModelBuilder modelBuilder)
+        //{
+        //    modelBuilder.Entity<InsuranceProduct>()
+        //        .HasOne(p => p.AuthorizedUser)
+        //        .WithMany(u => u.InsuranceProducts)
+        //        .HasForeignKey(p => p.AuthorizedUserId)
+        //        .OnDelete(DeleteBehavior.Cascade);
 
-            modelBuilder.Entity<InsuranceProduct>()
-                 .HasOne(p => p.Type)
-                 .WithMany(t => t.InsuranceProducts)
-                 .HasForeignKey(p => p.TypeId)
-                 .OnDelete(DeleteBehavior.Cascade);
-        }
+        //    modelBuilder.Entity<InsuranceProduct>()
+        //         .HasOne(p => p.Type)
+        //         .WithMany(t => t.InsuranceProducts)
+        //         .HasForeignKey(p => p.TypeId)
+        //         .OnDelete(DeleteBehavior.Cascade);
+        //}
 
-        
     }
 }
